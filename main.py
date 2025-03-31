@@ -11,7 +11,7 @@ def text_to_morse(text):
             
 def main():
     print("Welcome to the morse code converter.")
-    user_input = input("What would you like toi convert to morse code? ")
+    user_input = input("What would you like to convert to morse code? ")
     text_to_morse(user_input)
     print(f"Morse code = {text_to_morse(user_input)}")
 
